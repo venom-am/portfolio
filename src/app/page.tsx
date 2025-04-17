@@ -10,7 +10,7 @@ export default function Home() {
       <NavbarDemo />
       <GlowingEffectDemo />
       <StickyScrollRevealDemo />
-      <TimelineDemo/>
+      <TimelineDemo />
       <GetInTouch />
     </div>
   );
