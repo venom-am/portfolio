@@ -33,17 +33,17 @@ export function ShootingStarsAndStarsBackgroundDemo() {
             exploring various paths through trial and error, my journey has been
             anything but unconventional. Along the way, I discovered my true passion
             lies in technology and building things that live on the web. Today,
-            I'm a web developer at the Indian Institute of Information Technology,
+            I am a web developer at the Indian Institute of Information Technology,
             Vadodara. My work involves turning ideas into functional, user-centric
             websites while continuously learning and evolving with the
             ever-changing tech landscape.
 
             <br /><br />
 
-            Outside of coding, I'm an avid traveler and love immersing myself in
+            <p>Outside of coding, I'm an avid traveler and love immersing myself in
             different cultures—from exploring vibrant cities to spending reflective
             time in Buddhist monasteries. I enjoy meeting new people, hearing their
-            stories, and building meaningful connections wherever I go.
+            stories, and building meaningful connections wherever I go.</p>
           </p>
         </div>
         <div className="w-full md:w-auto flex justify-center">

@@ -1,6 +1,6 @@
 "use client";
 
-import { motion, useMotionValue, useSpring, useTransform } from "motion/react";
+import { motion, useMotionValue, useSpring} from "motion/react";
 import {  useRef, useState } from "react";
 import Image from "next/image";
 
@@ -21,8 +21,8 @@ export const DirectionAwareHover = ({
   const x = useMotionValue(0);
   const y = useMotionValue(0);
 
-  const mouseXSpring = useSpring(x);
-  const mouseYSpring = useSpring(y);
+  // const mouseXSpring = useSpring(x);
+  // const mouseYSpring = useSpring(y);
 
   // const top = useTransform(mouseYSpring, [0.5, -0.5], ["40%", "60%"]);
   // const left = useTransform(mouseXSpring, [0.5, -0.5], ["60%", "70%"]);
