@@ -46,11 +46,11 @@ export function TimelineDemo() {
       title: "Early 2023",
       content: (
         <div>
-          <p className="mb-8 text-xs font-normal text-neutral-800 md:text-sm dark:text-neutral-200">
+          <p className="mb-8 text-xs text-white font-normal text-neutral-800 md:text-sm dark:text-neutral-200">
           From formulas to functions — 2023 marked the shift,
           Where lines of code became my canvas, and logic my gift.
           </p>
-          <p className="mb-8 text-xs font-normal text-neutral-800 md:text-sm dark:text-neutral-200">
+          <p className="mb-8 text-xs font-normal text-white text-neutral-800 md:text-sm dark:text-neutral-200">
           Explored DSA, unlocked mysteries hidden deep within,
           Each challenge a step, where the journey would begin.
           </p>
@@ -91,23 +91,23 @@ export function TimelineDemo() {
       title: "Changelog",
       content: (
         <div>
-          <p className="mb-4 text-xs font-normal text-neutral-800 md:text-sm dark:text-neutral-200">
+          <p className="mb-4 text-xs font-normal text-white text-neutral-800 md:text-sm dark:text-neutral-200">
             Deep dive into coding and problem solving
           </p>
           <div className="mb-8">
-            <div className="flex items-center py-5 gap-2 text-xs text-neutral-700 md:text-sm dark:text-neutral-300">
+            <div className="flex items-center py-5 gap-2 text-xs text-white text-neutral-700 md:text-sm dark:text-neutral-300">
             🚀 Dived deep into the MERN stack (MongoDB, Express.js, React, Node.js), building full-stack apps that bridge frontend brilliance with backend power
             </div>
-            <div className="flex items-center py-3 gap-2 text-xs text-neutral-700 md:text-sm dark:text-neutral-300">
+            <div className="flex items-center py-3 gap-2 text-xs text-white text-neutral-700 md:text-sm dark:text-neutral-300">
             🧩 Developed impactful projects like an AI-powered career guidance platform (UpNext) and a donor-NGO connection platform, blending tech with purpose
             </div>
-            <div className="flex items-center py-5 gap-2 text-xs text-neutral-700 md:text-sm dark:text-neutral-300">
+            <div className="flex items-center py-5 gap-2 text-xs text-white text-neutral-700 md:text-sm dark:text-neutral-300">
             🧠 Participated in multiple hackathons, collaborating with diverse teams, solving real-world problems, and sharpening time-bound problem-solving skills
             </div>
-            <div className="flex items-center py-5 gap-2 text-xs text-neutral-700 md:text-sm dark:text-neutral-300">
+            <div className="flex items-center py-5 gap-2 text-xs text-white text-neutral-700 md:text-sm dark:text-neutral-300">
             🧰 Explored advanced tools and frameworks – from WebSocket and Redis to Tailwind CSS and Prisma, expanding my technical toolbox
             </div>
-            <div className="flex items-center py-3 gap-2 text-xs text-neutral-700 md:text-sm dark:text-neutral-300">
+            <div className="flex items-center py-3 gap-2 text-xs text-white text-neutral-700 md:text-sm dark:text-neutral-300">
             🌱 Started focusing on clean code, Git workflows, and scalable architecture, aiming for production-ready quality
             </div>
           </div>
