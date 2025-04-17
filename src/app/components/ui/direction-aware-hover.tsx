@@ -1,6 +1,6 @@
 "use client";
 
-import { motion, useMotionValue, useSpring} from "motion/react";
+import { motion, useMotionValue} from "motion/react";
 import {  useRef, useState } from "react";
 import Image from "next/image";
 

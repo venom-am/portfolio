@@ -40,10 +40,10 @@ export function ShootingStarsAndStarsBackgroundDemo() {
 
             <br /><br />
 
-            <p>Outside of coding, I'm an avid traveler and love immersing myself in
+            Outside of coding, I am an avid traveler and love immersing myself in
             different cultures—from exploring vibrant cities to spending reflective
             time in Buddhist monasteries. I enjoy meeting new people, hearing their
-            stories, and building meaningful connections wherever I go.</p>
+            stories, and building meaningful connections wherever I go.
           </p>
         </div>
         <div className="w-full md:w-auto flex justify-center">
