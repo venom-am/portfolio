@@ -1,25 +1,25 @@
 "use client";
 import React from "react";
-import { motion } from "motion/react"
+// import { motion } from "motion/react"
 import { ShootingStars } from "@/app/components/ui/shooting-stars";
 import { StarsBackground } from "@/app/components/ui/stars-background";
-import { NavbarDemo } from "./Navbar";
+// import { NavbarDemo } from "./Navbar";
 import { ColourfulText } from "./ui/colourful-text";
-import { GlowingEffectDemo } from "./GlowEffect";
-import { StickyScrollRevealDemo } from "./Skills";
-import { BorderMagicButton } from "./ui/border-magic-button";
-import { LinkPreview } from "./ui/link-preview";
+// import { GlowingEffectDemo } from "./GlowEffect";
+// import { StickyScrollRevealDemo } from "./Skills";
+// import { BorderMagicButton } from "./ui/border-magic-button";
+// import { LinkPreview } from "./ui/link-preview";
 import { DirectionAwareHoverDemo } from "./ui/direction-aware-hover-demo";
 
 export function ShootingStarsAndStarsBackgroundDemo() {
-  const handleViewProjects = () => {
-    // Open the GitHub profile in a new tab
-    window.open('https://github.com/venom-am', '_blank');
+  // const handleViewProjects = () => {
+  //   // Open the GitHub profile in a new tab
+  //   window.open('https://github.com/venom-am', '_blank');
     
-    // // If you have a projects page, you can use router.push('/projects')
-    // // Or scroll to the projects section
-    // document.getElementById('projects-section')?.scrollIntoView({ behavior: 'smooth' });
-  };
+  //   // // If you have a projects page, you can use router.push('/projects')
+  //   // // Or scroll to the projects section
+  //   // document.getElementById('projects-section')?.scrollIntoView({ behavior: 'smooth' });
+  // };
 
   return (
     <div className="min-h-screen w-full flex flex-col items-center justify-center bg-neutral-900 rounded-md mg-auto m-0 p-0">
