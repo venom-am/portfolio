@@ -35,7 +35,9 @@ export const GetInTouch = () => {
   return (
     <div id="contact-section" className="w-full bg-neutral-900 py-20">
       <div className="max-w-7xl mx-auto px-4 md:px-8 lg:px-10">
-        <h2 className="text-4xl font-bold text-white mb-8">Get in Touch</h2>
+        <h2 className="text-lg sm:text-xl md:text-2xl lg:text-4xl mb-3 sm:mb-4 text-white max-w-4xl">
+          <b className="bg-gradient-to-r from-purple-400 to-pink-600 text-transparent bg-clip-text">Get in Touch</b>
+        </h2>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
           {links.map((link, index) => (
             <Link

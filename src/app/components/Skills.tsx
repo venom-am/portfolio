@@ -184,23 +184,24 @@ const content = [
 ];
 export function StickyScrollRevealDemo() {
   return (
-    <div className="w-full bg-neutral-900 py-8">
-        <div className="bg-neutral-900 mt-24 text-center text-4xl font-bold text-white">
-      Technical Skills
-  {/* <hr className="border: 1px solid #ccc; margin: 20px 0;"/> */}
-    
-</div>
-    <div className="bg-neutral-900 mt-24 ">
-    <StickyScroll content={content} />
-    </div>
-    <div className="flex justify-center mt-4 mb-8">
-    <BorderMagicButton >
-      <a href="/resume.pdf" target="_blank" rel="noopener noreferrer">
-        View Resume
-      </a>
-    </BorderMagicButton>
-    </div>
-    
+    <div className="w-full bg-neutral-900">
+      <div className="w-full bg-neutral-900 px-4 sm:px-6 md:px-8 lg:px-10">
+        <div className="max-w-7xl mx-auto py-10 sm:py-12 md:py-16 lg:py-20">
+          <h2 className="text-lg sm:text-xl md:text-2xl lg:text-4xl mb-3 sm:mb-4 text-white max-w-4xl">
+            <b className="bg-gradient-to-r from-purple-400 to-pink-600 text-transparent bg-clip-text">Technical Skills</b>
+          </h2>
+        </div>
+      </div>
+      <div className="bg-neutral-900 mt-8 sm:mt-12 md:mt-16 lg:mt-20">
+        <StickyScroll content={content} />
+      </div>
+      <div className="flex justify-center mt-4 mb-8">
+        <BorderMagicButton>
+          <a href="/resume.pdf" target="_blank" rel="noopener noreferrer">
+            View Resume
+          </a>
+        </BorderMagicButton>
+      </div>
     </div>
   );
 }

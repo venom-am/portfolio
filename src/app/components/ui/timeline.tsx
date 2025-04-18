@@ -39,7 +39,7 @@ export const Timeline = ({ data }: { data: TimelineEntry[] }) => {
     >
       <div className="max-w-7xl mx-auto py-10 sm:py-12 md:py-16 lg:py-20">
         <h2 className="text-lg sm:text-xl md:text-2xl lg:text-4xl mb-3 sm:mb-4 text-white max-w-4xl">
-          <b>Changelog from my journey</b>
+          <b className="bg-gradient-to-r from-purple-400 to-pink-600 text-transparent bg-clip-text">Changelog from my journey</b>
         </h2>
         <p className="text-neutral-700 text-white text-xs sm:text-sm md:text-base max-w-sm">
           I have been student of Information Technology at <i>Indian Institute Of Information Technology, Vadodara</i> from past 2 years.

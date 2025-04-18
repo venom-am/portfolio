@@ -3,6 +3,7 @@ import { GlowingEffectDemo } from "./components/GlowEffect";
 import { StickyScrollRevealDemo } from "./components/Skills";
 import { TimelineDemo } from "./components/timeline";
 import { GetInTouch } from "./components/ui/get-in-touch";
+import { SpeedInsights } from "@vercel/speed-insights/next"
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
       <StickyScrollRevealDemo />
       <TimelineDemo />
       <GetInTouch />
+      <SpeedInsights />
     </div>
   );
 }

@@ -15,6 +15,7 @@
     "@tabler/icons-react": "^3.31.0",
     "@types/d3": "^7.4.3",
     "@types/topojson-client": "^3.1.5",
+    "@vercel/speed-insights": "^1.2.0",
     "clsx": "^2.1.1",
     "d3": "^7.9.0",
     "dotted-map": "^2.2.3",
